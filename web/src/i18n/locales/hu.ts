@@ -30,11 +30,11 @@ const hu = {
       loginButtonText: 'Bejelentkezés',
       tips: {
         reset1:
-          'To reset the passwords, pressing and holding the BOOT button on the NanoKVM for 10 seconds.',
-        reset2: 'For detailed steps, please consult this document:',
-        reset3: 'Web default account:',
-        reset4: 'SSH default account:',
-        change1: 'Please note that this action will change the following passwords:',
+          'Jelszavak alaphelyzetbe állításához a készüléken található BOOT gombot tartsa lenyomva 10mp erejéig.',
+        reset2: 'Részletes útmutatóhoz tekintse meg a következő dokumentumot:',
+        reset3: 'Webfelület alapértelmezett felhasználó:',
+        reset4: 'SSH alapértelmezett felhasználó:',
+        change1: 'Vegye számításba, hogy a következő parancs az alábbi jelszavakat írja felül:',
         change2: 'Web login password',
         change3: 'System root password (SSH login password)',
         change4: 'To reset the passwords, press and hold the BOOT button on the NanoKVM.'
@@ -148,7 +148,7 @@ const hu = {
       powerLong: 'Bekapcsolás (hosszú kattintás)'
     },
     settings: {
-      title: 'Settings',
+      title: 'Beállítások',
       about: {
         title: 'NanoKVM Névjegy',
         information: 'Információ',
@@ -162,31 +162,31 @@ const hu = {
         community: 'Közösség'
       },
       appearance: {
-        title: 'Appearance',
-        display: 'Display',
-        language: 'Language',
-        menuBar: 'Menu Bar',
-        menuBarDesc: 'Display icons in the menu bar'
+        title: 'Megjelenés',
+        display: 'Kijelző',
+        language: 'Nyelv',
+        menuBar: 'Menü Bar',
+        menuBarDesc: 'Eszköztáron megjelenő ikonok'
       },
       device: {
-        title: 'Device',
+        title: 'Eszköz',
         oled: {
-          title: 'OLED',
-          description: 'OLED screen automatically sleep',
-          0: 'Never',
-          15: '15 sec',
-          30: '30 sec',
-          60: '1 min',
-          180: '3 min',
-          300: '5 min',
-          600: '10 min',
-          1800: '30 min',
-          3600: '1 hour'
+          title: 'OLED (beépített kijelző)',
+          description: 'OLED kijelző automatikusan elalvása',
+          0: 'Soha',
+          15: '15 mp',
+          30: '30 mp',
+          60: '1 perc',
+          180: '3 perc',
+          300: '5 perc',
+          600: '10 perc',
+          1800: '30 perc',
+          3600: '1 óra'
         },
         wifi: {
           title: 'Wi-Fi',
-          description: 'Configure Wi-Fi',
-          setBtn: 'Config'
+          description: 'Wi-Fi konfigurálása',
+          setBtn: 'Beállítás'
         },
         disk: 'Virtual Disk',
         diskDesc: 'Mount virtual U-disk on the remote host',
@@ -200,9 +200,9 @@ const hu = {
           tip: "When memory usage exceeds the limit, garbage collection is performed more aggressively to attempt to free up memory. it's recommended to set to 50MB if using Tailscale. A Tailscale restart is required for the change to take effect.",
           disable: 'Disable'
         },
-        restart: 'Are you sure to restart Tailscale?',
-        stop: 'Are you sure to stop Tailscale?',
-        stopDesc: 'Log out Tailscale and disable its automatic startup on boot.',
+        restart: 'Biztosan újraindítja a TailScale-t?',
+        stop: 'Biztosan leállítja a Tailscale-t?',
+        stopDesc: 'Kijelentkezés TailScale-ből és az automatikus indulás blokkolása.',
         loading: 'Betöltés...',
         notInstall: 'Tailscale nem található! Kérem, telepítse.',
         install: 'Telepítés',
@@ -226,8 +226,8 @@ const hu = {
         account: 'Fiók',
         logout: 'Kijelentkezés',
         logout2: 'Biztos, hogy kijelentkezik?',
-        okBtn: 'Yes',
-        cancelBtn: 'No'
+        okBtn: 'Igen',
+        cancelBtn: 'Nem'
       },
       update: {
         title: 'Frissítés keresése',
@@ -240,11 +240,11 @@ const hu = {
         cancel: 'Mégse'
       },
       account: {
-        title: 'Account',
-        webAccount: 'Web Account Name',
-        password: 'Password',
-        updateBtn: 'Update',
-        logoutBtn: 'Logout'
+        title: 'Felhasználói fiók',
+        webAccount: 'Webfiók felhasználónév',
+        password: 'Jelszó',
+        updateBtn: 'Frissítés',
+        logoutBtn: 'Kijelentkezés'
       }
     }
   }
